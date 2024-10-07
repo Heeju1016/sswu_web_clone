@@ -8,13 +8,15 @@ import Like from './components/Like'
 import Search from './components/Search'
 import Mypage from './components/Mypage'
 
+import '../src/assets/scss/setting/common.scss'
+
 const App = () => {
     return (
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path='/' element={<Main />} />
-                <Route path='/loading' element={<Loading />} />
+                <Route path='/Main' element={<Main />} />
+                <Route path='/' element={<Loading />} />
                 <Route path='/like' element={<Like />} />
                 <Route path='/search' element={<Search />} />
                 <Route path='/mypage' element={<Mypage />} />

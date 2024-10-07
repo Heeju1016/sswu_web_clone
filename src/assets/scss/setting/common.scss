@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    width: 375px;
+    height: 734px;
+}
+
+.Header_container {
+    width: 375px;
+    height: 50px;
+    .Header_box {
+        background-color: #6A6FB3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .LogoWhite {
+            width: 120px;
+            height: 30.24px;
+        }
+    }
+}
+
+.Loading_Logo img {
+    width: 193px;
+    height: 51px;
+    margin-top: 300px;
+    margin-left: 90px;
+}
+
+.Slider_img {
+    width: 100%;
+    height: 140px;
+}
+
+
+.Nav_container {
+    width: 375px;
+    height: 60px;
+    .Nav_list ul {
+        width: 375px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

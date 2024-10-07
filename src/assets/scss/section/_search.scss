@@ -1,0 +1,22 @@
+.Search_wrap {
+    .InputContainer {
+        display: flex;
+        justify-content: center;
+        width: 336px;
+        height: 40px;
+        border: 2px solid #6A6FB3;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        input {
+            margin-left: 16px;
+            width: 80%;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+            margin-top: 3px;
+        }
+       
+    }
+}
